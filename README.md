@@ -1,9 +1,9 @@
 # TrocaCell
 
-Demonstração de catálogo de iPhones, MacBooks e iPads com busca, categorias, sacola e atendimento pelo WhatsApp.
+Catálogo de iPhones, MacBooks e iPads com categorias, busca, sacola e pedidos pelo WhatsApp.
 
-Esta versão é estática. Alterações no catálogo são salvas somente no navegador utilizado. A área de demonstração aceita qualquer senha e não deve ser usada como administração de uma loja em produção.
+A vitrine é publicada pelo GitHub Pages na pasta docs. O painel utiliza uma API HTTPS externa, com senha validada no servidor e gravação em banco de dados. A senha não está incluída nos arquivos públicos.
 
-## Publicar
+Produtos são organizados por categoria e modelo. Editar preço ou condição mantém a posição do aparelho no catálogo.
 
-Em Settings → Pages, selecione Deploy from a branch, branch main e pasta /docs. Salve e aguarde o GitHub informar o endereço publicado.
+Quem utilizou a versão local pode importar as alterações pelo botão correspondente após entrar na área da loja. A importação pede confirmação antes de atualizar o catálogo compartilhado.
